@@ -1,1 +1,51 @@
 /* #635985  #443C68  #393053  #18122B  font-family: 'Array', sans-serif; */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:#443C68 ;
+}
+
+.container
+{
+    position: relative;
+    left: 22vw;
+    top: 10vw;
+    width: 730px;
+    height: 300px;
+    background-color: #393053;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 22px solid  #635985;
+    z-index: 999;
+box-shadow: inset 0px 0px 35px #27203a;
+}
+
+
+#time
+{
+    font-family: 'Kola', sans-serif;
+    font-size: 8em;
+    color: rgb(224, 224, 224);
+    text-shadow: 0px 0px 6px white;
+}
+
+.btn
+{
+    position: absolute;
+    top: 18vh;
+    right: 30vw;
+    width: 60px;
+    height: 20px;
+    background-color: #393053;
+}
+
